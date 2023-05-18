@@ -8,7 +8,7 @@
 
 GLdouble posicao = 0;
 GLdouble velocidade = 5, rotacao = 0, rotacaoRoda1=0, rotacaoRoda2=0;
-GLdouble deslocamento = 2;
+GLdouble deslocamento = 2, curva= 0, curvaTx = 5;
 GLdouble rotX = 0, rotY = 0;
 int cam_view = 2;
 
@@ -48,6 +48,7 @@ void display(void) {
 
             glPushMatrix();
             glTranslatef(19, 10, 0);
+            glRotatef(curva, 0, 1, 0);
                 glPushMatrix();
                 {
                     glColor3f(0.0f, 0.0f, 1.0f);
@@ -81,6 +82,7 @@ void display(void) {
                 {
                     glTranslatef(15, -5, 0);
                     glRotatef(rotacaoRoda2, 0,0,1);
+                    glRotatef(curva, 0, 1, 0);
                     glColor3f(0.25f, 0.25f, 0.25f);
                     glutSolidTorus(1, 3, 15, 30);
                 }
@@ -182,6 +184,12 @@ void keyboard(unsigned char key, int x, int y) {
         rotacaoRoda2 += velocidade;
         posicao += deslocamento;
         break;
+    case 'q':
+        curva += curvaTx;
+        break;
+    case 'e':
+        curva -= curvaTx;
+        break;
     case 32:
         cam_view = (++cam_view % 3);
         posicao = 0;
@@ -194,6 +202,8 @@ void keyboard(unsigned char key, int x, int y) {
 
     if (posicao > 30 || posicao < -30)
         deslocamento *= -1;
+    if (curva > 85 || curva < -85)
+        curvaTx *= -1;
 
     glutPostRedisplay();
 }
