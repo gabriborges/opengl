@@ -336,12 +336,12 @@ void specialKeys(int key, int x, int y) {
 	}
 
   if (angleY > 8)
-        angleY = 5;
+        angleY = 8;
   if (angleY < -8)
         angleY = -8;
   
   if (angleX > 8)
-        angleX = 5;
+        angleX = 8;
   if (angleX < -8)
         angleX = -8;
 
