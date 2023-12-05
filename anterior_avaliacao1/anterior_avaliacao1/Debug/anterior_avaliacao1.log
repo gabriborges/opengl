@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\gabri\source\repos\anterior_avaliacao1\anterior_avaliacao1\main.cpp(21,13): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\anterior_avaliacao1\anterior_avaliacao1\main.cpp(22,13): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\anterior_avaliacao1\anterior_avaliacao1\main.cpp(47,13): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\anterior_avaliacao1\anterior_avaliacao1\main.cpp(60,14): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+  anterior_avaliacao1.vcxproj -> C:\Users\gabri\source\repos\anterior_avaliacao1\Debug\anterior_avaliacao1.exe

@@ -1,0 +1,10 @@
+﻿  robo.cpp
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(17,28): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(18,15): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(19,15): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(20,15): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(50,15): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(64,15): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(77,22): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\gabri\source\repos\robo\robo\robo.cpp(90,23): warning C4244: 'argument': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+  robo.vcxproj -> C:\Users\gabri\source\repos\robo\Debug\robo.exe
